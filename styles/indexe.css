@@ -260,8 +260,9 @@ h1{
     color: #009e66;
 }
 
-.services{
+.services , .servicePlan{
     margin-top: 10%;
+    text-align: center;
 }
 
 h3{
