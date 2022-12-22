@@ -13,12 +13,12 @@ body{
 
 .nuit{
     color: #f0f8ff;
-    background-color: #161616 !important;
+    background-color: #111 !important;
 }
 
 .jour{
     background-color: #e4e4e4 !important;
-    color: #161616 !important;
+    color: #111 !important;
 }
 
 .acceuil{
@@ -160,10 +160,14 @@ a:hover {
     background-color: #009e66;
 }
 
-h4{
+.checkIt{
+    font-size: 15px !important;
+}
+
+/* h4{
     font-size: 15px !important;
 /*     color: #9f9f9f;
- */}
+ */
 
 .bare{
     color: #009e66;
@@ -340,6 +344,63 @@ h5{
 .myservice{
     margin-bottom: 5%;
 }
+
+.resumeBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+.resumeTitle{
+    font-size: 26px;
+}
+
+.exp > h4 {
+    font-size: 20px; 
+}
+
+.textResume{
+    color: #9f9f9f;
+}
+
+.exp{
+    background-color: #161616;
+    border-left: 2px solid #009e66;
+    border-bottom: 1px solid #4b4b4b;
+    padding: 32px 48px;
+    position: relative;
+}
+
+.resumeTitle{
+    margin-bottom: 5%;
+    color: #009e66;
+}
+
+.fa-regular{
+    left: 0;
+    margin-top: 2px;
+    position: absolute;
+}
+
+/* .arrow{
+    left: 0;
+    padding-bottom: 50px;
+    position: absolute;
+    color: #009e66;
+    width: 5em;
+    height: 5em;
+} */
+
+.arrow{
+    left: 0;
+    margin-top: 2px;
+    position: absolute;
+    color: #009e66;
+}
+
+/* .exp > .align{
+    display: flex;
+    position: relative;
+} */
 
 @media screen and (max-width: 64em) {
     .nom {
