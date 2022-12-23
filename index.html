@@ -15,11 +15,11 @@
             <nav class="">
                 <img src="images/logo.jpg"  class="logo" alt="logo">
                 <ul>
-                    <li ><a class="nuit" href="#about">About</a></li>
-                    <li ><a class="nuit" href="">Resume</a></li>
-                    <li ><a class="nuit" href="">Portfolio</a></li>
-                    <li ><a class="nuit" href="">Blog</a></li>
-                    <li ><a class="nuit" href="">Contact</a></li>
+                    <li><a class="nuit" href="#about">About</a></li>
+                    <li><a class="nuit" href="#resume">Resume</a></li>
+                    <li><a class="nuit" href="">Portfolio</a></li>
+                    <li><a class="nuit" href="">Blog</a></li>
+                    <li><a class="nuit" href="">Contact</a></li>
                     <li class="nuit"><span class="iconify modeNuit" data-icon="ion:sunny" onclick="Toggle()"></span></li>
                 </ul> 
             </nav> 
@@ -29,9 +29,7 @@
                 Galo Diokhane
             </div>
             <div class="metier">
-                I'm a Developper
-                ,freelancer
-                and Desiner
+               <span class="im">I'm</span>  <span class="autoInput"></span>
             </div>
         </div>
         <footer>
@@ -215,9 +213,9 @@
     </section>
 
     <section class="resume">
-        <div class="entete">
+        <div class="entete" id="resume">
             <h4 class="checkIt">Check out my Resume</h4>
-            <h1 class="">Resume</h1>
+            <h1>Resume</h1>
         </div>
         <div class="row resumeBody">
             <div class="education col-12 col-md-6 col-lg-4 support-card">
@@ -263,7 +261,7 @@
                         GOMYCODE / 2022-Present <br><br>
                         I recently landed my first job as a full-stack JavaScript instructor.                    </p>
                 </div>
-                <div class="exp">
+                <div class="exp" id="mode">
                     <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Designer</h4>
                     <p class="textResume">
@@ -290,7 +288,7 @@
         contact
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var mode = document.getElementById("mode")
         function Toggle(){
@@ -304,7 +302,18 @@
                 mode.classList.add("nuit")
             }
     }
+
+    // Can also be included with a regular script tag
+    var typed  = new Typed ( ".autoInput",{
+
+        strings: ['a Developper', 'a Freelance' , 'and a Designer'],
+        typeSpeed: 40,
+        backSpeed: 100,
+        loop: true
+        });
+
     </script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
 </body>
 </html>

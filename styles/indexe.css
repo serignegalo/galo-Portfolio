@@ -46,8 +46,17 @@ nav{
     font-size: 500%;
 }
 
-.hero .metier{
+.hero {
     font-size: larger;
+}
+
+.autoInput{
+    font-size: xx-large;
+    color: #009e66;
+}
+
+.im{
+    font-size: xx-large; 
 }
 
 
@@ -363,9 +372,7 @@ h5{
 }
 
 .exp{
-    background-color: #161616;
     border-left: 2px solid #009e66;
-    border-bottom: 1px solid #4b4b4b;
     padding: 32px 48px;
     position: relative;
 }
