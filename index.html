@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE skills>
+<skills lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
     <section class="acceuil">
         <header>
             <nav class="">
-                <img src="images/logo.jpg"  class="logo" alt="logo">
+                <img src="images/logo.png"  class="logo" alt="logo">
                 <ul>
                     <li><a class="nuit" href="#about">About</a></li>
                     <li><a class="nuit" href="#resume">Resume</a></li>
@@ -29,7 +29,7 @@
                 Galo Diokhane
             </div>
             <div class="metier">
-               <span class="im">I'm</span>  <span class="autoInput"></span>
+               <p class="im">I'm </p> <p class="autoInput"></p>
             </div>
         </div>
         <footer>
@@ -46,6 +46,7 @@
             </div>
         </footer>
     </section>
+    <hr>
     
     <br><br><br>
 
@@ -78,7 +79,7 @@
                             </div>
                             <div class="col-md-4 reseau">
                                 <button class="download">Download CV</button>
-                                <span class="iconify" data-icon="ant-design:line-outlined"></span>                                
+                                <span class="iconify" data-icon="ant-design:line-outlined" ></span>                                
                                 <address class="adress">
                                     <a href="#"><span class="iconify resSociauxAbout" data-icon="ion:logo-twitter"></span></a>
                                     <a href="#"><span class="iconify resSociauxAbout" data-icon="ion:logo-facebook"></span></a>
@@ -92,9 +93,6 @@
                 </div>
             </div>
         </div>
-
-        <br><br><br>
-
         <div class="services">
             <p>Services i offer to my clients</p>
             <h3 class="myservice">My Services</h3>
@@ -162,14 +160,14 @@
 
         </div>
 
-        <br><br><br>
-        <div class="servicePlan">
+        
+<!--         <div class="servicePlan">
             <p>Get started with my services</p>
             <h3 class="myservice">Choose a plan</h3>
             <div class="plan">
                 <div class="row ">
                     <div class="col-md-4 cardService">
-                        <p><span class="iconify iconeservice" data-icon="bi:egg-fill"></span></span></p>
+                        <p><span class="iconify iconeservice" data-icon="bi:egg-fill"></span></p>
                         <h5>Standard</h5>
                         <h2 class="priceMonth">$19/month</h2>
                         <ul class="offerServices">
@@ -209,35 +207,39 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
+    <hr>
+
+    <br><br><br>
 
     <section class="resume">
         <div class="entete" id="resume">
             <h4 class="checkIt">Check out my Resume</h4>
             <h1>Resume</h1>
+            <span class="iconify bare" data-icon="ant-design:line-outlined" data-width="100"></span>
         </div>
         <div class="row resumeBody">
             <div class="education col-12 col-md-6 col-lg-4 support-card">
                 <h3 class="resumeTitle">Education</h3> 
-                <div class="exp">
-                    <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
+                <div class="exp" id="mode">
+                    <span class="iconify smallArrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Baccalaureate S2</h4>
                     <p class="textResume">
                         Lycée Seydina Limamou Laye / 2011-2015<br><br>
                         I had my baccalaureate in S2 where you learn experimental science: physics, chemistry, mathematics and natural science
                     </p>
                 </div>
-                <div class="exp">
-                    <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
+                <div class="exp" id="mode">
+                    <span class="iconify smallArrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Mathematical-Informatic</h4> 
                     <p class="textResume">
                         Université Cheikh Anta Diop / 2016-2020<br><br>
                         With my mathematics license I obtained the basics to easily understand the logic of programming languages
                     </p>
                 </div>
-                <div class="exp">
-                    <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
+                <div class="exp" id="mode">
+                    <span class="iconify smallArrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Master Degree</h4>
                     <p class="textResume">
                         IPM / 2020 - Present <br><br>
@@ -247,22 +249,22 @@
             </div>
             <div class="experience col-12 col-md-6 col-lg-4 support-card">
                 <h3 class="resumeTitle">Experience</h3> 
-                <div class="exp">
-                    <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
+                <div class="exp" id="mode">
+                    <span class="iconify smallArrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Stager Software Engineer and Designer</h4> 
                     <p class="textResume">
                         Wolooma Group / March-December 2022 <br><br>
                         In March 2022, I landed my first internship as a brain content(designer) and developer.                    </p>
                 </div>
-                <div class="exp">
-                    <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
+                <div class="exp" id="mode">
+                    <span class="iconify smallArrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Instructor Full-Stack JavaSript</h4>
                     <p class="textResume">
                         GOMYCODE / 2022-Present <br><br>
                         I recently landed my first job as a full-stack JavaScript instructor.                    </p>
                 </div>
                 <div class="exp" id="mode">
-                    <span class="iconify arrow" data-icon="material-symbols:arrow-right"></span>
+                    <span class="iconify smallArrow" data-icon="material-symbols:arrow-right"></span>
                     <h4>Designer</h4>
                     <p class="textResume">
                         CAP for change / 2021 - Present <br><br>
@@ -273,6 +275,72 @@
             </div>
 
         </div>
+        <br> <br>
+        <div class="entete" id="skills">
+            <h4 class="checkIt">My level of knowledge in some tools            </h4>
+            <h1>My Skills</h1>
+        </div>
+
+        <div class="myskills">
+            <div class="row">
+                <div class="col-md-6 col">
+                    <h2>HTML/CSS</h2>
+                    <div class="skills">
+                        <div class="skill htmlCss">
+                            <span class="percent">90%</span> 
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-6 col">
+                    <h2>React Js</h2>
+                    <div class="skills">
+                        <div class="skill react">
+                            <span class="percent">85%</span> 
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col">
+                    <h2>Web Design</h2>
+                    <div class="skills">
+                        <div class="skill web">
+                            <span class="percent">70%</span> 
+                        </div>
+                    </div>
+                    <br>                  
+                </div>
+                <div class="col-md-6 col">
+                    <h2>Express</h2>
+                    <div class="skills">
+                        <div class="skill express">
+                            <span class="percent">90%</span> 
+                        </div>
+                    </div>                  
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-6 col">
+                    <h2>JavaScript</h2>
+                    <div class="skills">
+                        <div class="skill js">
+                            <span class="percent">85%</span> 
+                        </div>
+                    </div>
+                    <br>                   
+                </div>
+                <div class="col-md-6 col">
+                    <h2>Design</h2>
+                    <div class="skills">
+                        <div class="skill design">
+                            <span class="percent">80%</span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </section>
     
@@ -306,7 +374,7 @@
     // Can also be included with a regular script tag
     var typed  = new Typed ( ".autoInput",{
 
-        strings: ['a Developper', 'a Freelance' , 'and a Designer'],
+        strings: [' a Developper', ' a Freelance' , ' and a Designer'],
         typeSpeed: 40,
         backSpeed: 100,
         loop: true
@@ -316,4 +384,4 @@
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
 </body>
-</html>
+</skills>
