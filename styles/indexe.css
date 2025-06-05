@@ -522,8 +522,8 @@ h5{
 }
 
 .imgWeb {
-    width: 300;
-    height: 300;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 
 }
